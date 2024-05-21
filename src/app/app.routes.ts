@@ -3,6 +3,7 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { WalyssonComponent } from './components/walysson/walysson.component';
+import { MiguelComponent } from './components/miguel/miguel.component';
 
 
 export const routes: Routes = [
@@ -10,6 +11,7 @@ export const routes: Routes = [
     {path: 'home', component: HomeComponent},
     {path: 'navbar', component: NavbarComponent},
     {path: 'walysson', component: WalyssonComponent},
+    {path: 'miguel', component: MiguelComponent},
     //las rutas deben agregarse a partir de aqui
 
 
