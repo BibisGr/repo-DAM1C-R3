@@ -11,8 +11,9 @@ export const routes: Routes = [
     {path: 'navbar', component: NavbarComponent},
     //las rutas deben agregarse a partir de aqui
   {
-    path: 'footerYady', component: FooterYadyComponent
+    path: 'Yady', component: FooterYadyComponent
   },
+  {path: 'yady' ,component:FooterYadyComponent },
 
 
 
